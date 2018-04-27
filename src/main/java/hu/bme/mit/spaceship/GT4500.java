@@ -1,5 +1,7 @@
 package hu.bme.mit.spaceship;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 /**
  * A simple spaceship with two proton torpedo stores and four lasers
  */
@@ -16,8 +18,7 @@ public class GT4500 implements SpaceShip {
     }
 
     public boolean fireLaser(FiringMode firingMode) {
-        // TODO not implemented yet
-        return false;
+        throw new NotImplementedException();
     }
 
 
